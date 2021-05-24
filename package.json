@@ -1,0 +1,17 @@
+{
+  "name": "contact_data",
+  "version": "1.0.0",
+  "description": "A code to view contact data",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreyans Mutha",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  }
+}

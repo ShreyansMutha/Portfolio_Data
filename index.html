@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="image/png" href="images/logo.jpg" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/b405ff76e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+
+    
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+
+    <title>Data</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <div class="container align-items-center">
+            <div class="row row-header">
+                <div class="col-2 col-sm-6">
+                    <img class="logo" src="images/logo.jpg">
+                </div>
+                <div class="col-sm-6">
+                    <h1>SHREYANS MUTHA.</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container" id="contentbody">
+        <div class="row row-content align-items-center">
+            <div class="col-12">
+                <hr>
+                <h2 class="header2">Contacts &amp; Data</h2>
+                <hr>
+                <br>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark" >
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Purpose</th>
+                                <th>Message</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableforjs">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 align-self-center">
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary callandmail" href="tel:+919403123941"><i
+                                class="fa fa-phone"></i> Call </a>
+                        <a role="button" class="btn btn-success callandmail" href="mailto:shreyansmutha3@gmail.com"><i
+                                class="fa fa-envelope-o"></i> Email </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-6 align-self-center">
+                    <div class="text-center sociallinks">
+                        <a href="https://www.facebook.com/shreyans.mutha.7900" target="_blank"><i title="Facebook"
+                                class="fa fa-facebook-official"></i></a>
+                        <a href="https://www.instagram.com/shree_7900/" target="_blank"><i title="Instagram"
+                                class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/Shreyan37136034" target="_blank"><i title="Twitter"
+                                class="fa fa-twitter"></i></a>
+                        <a href="https://github.com/ShreyansMutha" target="_blank"><i title="Git-hub"
+                                class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shreyans-mutha-526407155/" target="_blank"><i
+                                title="Linked In" class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    @Copyright 2021 Shreyans Mutha.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
